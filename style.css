@@ -1,4 +1,4 @@
-.body{
+.bodys{
     width: 620px;
     height: 620px;
    display: flex;
@@ -37,4 +37,15 @@
     background-image: url(images/o.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+#modal{
+    display: none;
+    width: 500px;
+    height: 400px;
+    background-color: green;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    text-align: center;
+
 }
